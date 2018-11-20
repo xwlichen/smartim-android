@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.smart.im.module.login.widget.LoginBGView
+            android:id="@+id/lbgv_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/leak_canary_icon"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:id="@+id/ll_step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="欢迎来到SIM"
+                android:textSize="22dp"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="@dimen/height_line"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/c_333333"/>
+
+            <Button
+                android:id="@+id/btn_step1_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/shape_default_radius5"
+                android:textColor="@color/white"
+                android:text="登陆"/>/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@null"
+                android:gravity="center_horizontal"
+                android:cursorVisible="false"
+                android:textSize="@dimen/font_normal"
+                android:textColorHint="@color/hint"
+                android:textColor="@color/c_333333"
+                android:hint="手机号" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_line"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:background="@color/hint"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@null"
+                android:gravity="center_horizontal"
+                android:cursorVisible="false"
+                android:textSize="@dimen/font_normal"
+                android:textColorHint="@color/hint"
+                android:textColor="@color/c_333333"
+                android:hint="密码"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_line"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:background="@color/hint"/>
+
+            <Button
+                android:id="@+id/btn_step2_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/shape_default_radius5"
+                android:textColor="@color/white"
+                android:text="登陆"/>/>
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" />
+
+
+</LinearLayout>
+
+

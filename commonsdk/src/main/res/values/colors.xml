@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F92E8</color>
+    <color name="colorPrimaryDark">#1F92E8</color>
+    <color name="colorAccent">#1F92E8</color>
+
+
+<color name="c_default">#1F92E8</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="hint">#DADBDD</color>
+
+
+
+
+    <color name="c_transparent">#00000000</color>
+    <color name="c_4A4A4A">#4A4A4A</color>
+    <color name="c_443636">#443636</color>
+    <color name="c_53A8F4">#53A8F4</color>
+    <color name="c_53A7F3">#53A7F3</color>
+    <color name="c_E5E5E5">#E5E5E5</color>
+    <color name="c_F6F6F6">#F6F6F6</color>
+    <color name="c_FFFFFF">#FFFFFF</color>
+    <color name="c_959292">#959292</color>
+    <color name="c_CDD3D7">#CDD3D7</color>
+    <color name="c_B8B6B6">#B8B6B6</color>
+    <color name="c_E7E7E7">#E7E7E7</color>
+    <color name="c_D8D8D8">#D8D8D8</color>
+    <color name="c_06CB7E">#06CB7E</color>
+    <color name="c_6C6C6C">#6C6C6C</color>
+    <color name="c_666F80">#666F80</color>
+    <color name="c_0F79FD">#0F79FD</color>
+    <color name="c_FFB8B6B6">#FFB8B6B6</color>
+    <color name="c_F55122">#F55122</color>
+    <color name="c_F55123">#F55123</color>
+    <color name="c_FFF55122">#FFF55122</color>
+    <color name="c_FF6C6C6C">#FF6C6C6C</color>
+    <color name="c_FF959292">#FF959292</color>
+    <color name="c_FF9C15">#FF9C15</color>
+    <color name="c_FF4A4A4A">#FF4A4A4A</color>
+    <color name="c_FFF59C22">#FFF59C22</color>
+    <color name="c_F59C22">#F59C22</color>
+    <color name="c_F59C23">#F59C23</color>
+    <color name="c_FFFFFFFF">#FFFFFFFF</color>
+    <color name="c_FF53A8F4">#FF53A8F4</color>
+    <color name="c_E9EDEE">#E9EDEE</color>
+    <color name="c_FFE9EDEE">#FFE9EDEE</color>
+    <color name="c_FF06CB7E">#FF06CB7E</color>
+    <color name="public_background">#FFF6F6F6</color>
+    <color name="c_979797">#979797</color>
+    <color name="c_FED652">#FED652</color>
+    <color name="c_148CF9">#148CF9</color>
+    <color name="c_333333">#333333</color>
+
+
+
+
+
+
+
+
+
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#e6e6e6</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+</resources>
