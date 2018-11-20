@@ -15,10 +15,6 @@
  */
 package com.smart.im.common.sdk.rx;
 
-import android.app.Activity;
-import android.app.Fragment;
-
-import com.jess.arms.base.BaseActivity;
 import com.jess.arms.mvp.IView;
 import com.jess.arms.utils.RxLifecycleUtils;
 import com.smart.im.common.sdk.base.BaseAppActivity;

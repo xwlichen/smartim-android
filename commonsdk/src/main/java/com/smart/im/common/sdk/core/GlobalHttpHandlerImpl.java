@@ -92,7 +92,8 @@ public class GlobalHttpHandlerImpl implements GlobalHttpHandler {
         Request newRequest = request.newBuilder()
                 .addHeader(Constants.TOKEN, token)
                 .addHeader(Constants.PLATFORM, "android")
-                .addHeader(Constants.DEVICE_ID, DeviceUtils.getIMEI(context))
+//                .addHeader(Constants.DEVICE_ID, DeviceUtils.getIMEI(context))
+                .addHeader(Constants.DEVICE_ID, "sdfsfdsfd")
                 .addHeader(Constants.VERSION, DeviceUtils.getVersionName(context))
                 .build();
 

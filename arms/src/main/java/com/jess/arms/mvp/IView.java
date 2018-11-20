@@ -15,14 +15,6 @@
  */
 package com.jess.arms.mvp;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.support.annotation.NonNull;
-
-import com.jess.arms.utils.ArmsUtils;
-
-import static com.jess.arms.utils.Preconditions.checkNotNull;
-
 /**
  * ================================================
  * 框架要求框架中的每个 View 都需要实现此类, 以满足规范

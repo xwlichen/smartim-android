@@ -15,16 +15,11 @@
  */
 package com.smart.im.module.login.di.module;
 
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-
-import com.jess.arms.di.scope.ActivityScope;
 import com.smart.im.module.login.mvp.contract.LoginContract;
 import com.smart.im.module.login.mvp.model.UserModel;
 
 import dagger.Binds;
 import dagger.Module;
-import dagger.Provides;
 
 
 /**

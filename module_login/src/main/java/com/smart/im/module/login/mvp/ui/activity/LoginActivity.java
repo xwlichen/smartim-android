@@ -4,7 +4,6 @@ import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -17,7 +16,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.jess.arms.di.component.AppComponent;
-import com.jess.arms.di.component.DaggerAppComponent;
 import com.smart.im.common.sdk.base.BaseAppActivity;
 import com.smart.im.common.sdk.utils.AnimatorUtils;
 import com.smart.im.common.sdk.utils.KeyBoardUtils;
@@ -114,7 +112,7 @@ public class LoginActivity extends BaseAppActivity <LoginPresenter> implements L
     @OnClick(R2.id.btn_step2_login)
     public void loginStep2() {
 
-
+        mPresenter.requestDatas();
     }
 
     @OnClick(R2.id.iv_head)

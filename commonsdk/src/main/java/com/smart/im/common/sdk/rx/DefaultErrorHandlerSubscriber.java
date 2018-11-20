@@ -2,7 +2,7 @@ package com.smart.im.common.sdk.rx;
 
 import android.text.TextUtils;
 
-import com.jess.arms.utils.ArmsUtils;
+import com.hjq.toast.ToastUtils;
 import com.smart.im.common.sdk.model.Result;
 
 import me.jessyan.rxerrorhandler.core.RxErrorHandler;
@@ -45,7 +45,7 @@ public abstract class DefaultErrorHandlerSubscriber<T> extends ErrorHandleSubscr
 
     public void onFail(String msg) {
         if (!TextUtils.isEmpty(msg)) {
-//            ToastUtils.show(msg);
+            ToastUtils.show(msg);
         }
 
     }

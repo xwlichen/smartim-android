@@ -23,5 +23,7 @@ package com.smart.im.module.login.app;
  */
 public interface Api {
     String LOGIN_DOMAIN_NAME = "login";
-    String LOGIN_DOMAIN = "http://192.168.1.39";
+        String LOGIN_DOMAIN = "http://192.168.1.39:8081";
+//    String LOGIN_DOMAIN = "http://dev.api.51koudaishu.com/";
+
 }

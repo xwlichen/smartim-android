@@ -23,8 +23,6 @@ import com.smart.im.module.login.mvp.contract.LoginContract;
 import com.smart.im.module.login.mvp.model.api.service.LoginService;
 import com.smart.im.module.login.mvp.model.entity.User;
 
-import java.util.List;
-
 import javax.inject.Inject;
 
 import io.reactivex.Observable;
@@ -49,7 +47,7 @@ public class UserModel extends BaseModel implements LoginContract.Model {
     @Override
     public Observable<Result<User>> login(String account, String password) {
         return mRepositoryManager
-                .obtainCacheService(LoginService.class)
+                .obtainRetrofitService(LoginService.class)
                 .login(account,password);
     }
 }

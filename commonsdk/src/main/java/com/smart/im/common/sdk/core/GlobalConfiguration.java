@@ -28,9 +28,9 @@ import com.jess.arms.di.module.GlobalConfigModule;
 import com.jess.arms.http.log.RequestInterceptor;
 import com.jess.arms.integration.ConfigModule;
 import com.smart.im.common.sdk.BuildConfig;
-import com.smart.im.common.sdk.imgengine.strategy.CommonGlideImageLoaderStrategy;
 import com.smart.im.common.sdk.http.Api;
 import com.smart.im.common.sdk.http.SSLSocketClient;
+import com.smart.im.common.sdk.imgengine.strategy.CommonGlideImageLoaderStrategy;
 
 import java.util.List;
 

@@ -16,23 +16,17 @@
 package com.smart.im.module.login.mvp.presenter;
 
 import android.app.Application;
-import android.arch.lifecycle.Lifecycle;
-import android.arch.lifecycle.OnLifecycleEvent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.SupportActivity;
-import android.support.v7.widget.RecyclerView;
 
 import com.jess.arms.di.scope.ActivityScope;
 import com.jess.arms.integration.AppManager;
 import com.jess.arms.mvp.BasePresenter;
-import com.jess.arms.utils.RxLifecycleUtils;
-import com.smart.im.common.sdk.rx.DefaultErrorHandlerSubscriber;
 import com.smart.im.common.sdk.model.Result;
+import com.smart.im.common.sdk.rx.DefaultErrorHandlerSubscriber;
 import com.smart.im.common.sdk.rx.RxDialogUtils;
 import com.smart.im.module.login.mvp.contract.LoginContract;
 import com.smart.im.module.login.mvp.model.entity.User;
-
-import java.util.List;
 
 import javax.inject.Inject;
 
@@ -77,10 +71,10 @@ public class LoginPresenter extends BasePresenter<LoginContract.Model, LoginCont
 
     public void requestDatas() {
 
-        mModel.login("", "")
+        mModel.login("7", "1")
                 .subscribeOn(Schedulers.io())
                 .retryWhen(new RetryWithDelay(3, 2))//遇到错误时重试,第一个参数为重试几次,第二个参数为重试的间隔
-
+                .observeOn(AndroidSchedulers.mainThread())
                 .compose(RxDialogUtils.applySchedulers(mRootView))//使用 Rxlifecycle,使 Disposable 和 Activity 一起销毁
                 .subscribe(new DefaultErrorHandlerSubscriber<Result<User>>(mErrorHandler) {
                     @Override
@@ -88,6 +82,9 @@ public class LoginPresenter extends BasePresenter<LoginContract.Model, LoginCont
 
                     }
                 });
+
+
+
 
 
     }
