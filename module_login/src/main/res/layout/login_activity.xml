@@ -6,18 +6,18 @@
 
 
     <FrameLayout
-        android:id="@+id/fl_content"
+        android:id="@+id/flContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
         <com.smart.im.module.login.widget.LoginBGView
-            android:id="@+id/lbgv_container"
+            android:id="@+id/lbgvContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
         <ImageView
-            android:id="@+id/iv_head"
+            android:id="@+id/ivHead"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
@@ -26,7 +26,7 @@
             android:scaleType="fitXY"/>
 
         <LinearLayout
-            android:id="@+id/ll_step1"
+            android:id="@+id/llStep1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -46,7 +46,7 @@
                 android:background="@color/c_333333"/>
 
             <Button
-                android:id="@+id/btn_step1_login"
+                android:id="@+id/btnStep1Login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
@@ -61,7 +61,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_step2"
+            android:id="@+id/llStep2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -135,7 +135,7 @@
     </FrameLayout>
 
     <View
-        android:id="@+id/layout_bottom"
+        android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="3" />
