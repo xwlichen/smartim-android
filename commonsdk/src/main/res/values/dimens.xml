@@ -4,7 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
 
-
     <dimen name="font_normal">18sp</dimen>
     <dimen name="font_big">20sp</dimen>
 
@@ -17,5 +16,8 @@
 
     <dimen name="line_width">0.2dp</dimen>
     <dimen name="line_height">0.2dp</dimen>
+
+
+    <dimen name="dimen_50">50dp</dimen>
 
 </resources>

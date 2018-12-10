@@ -49,18 +49,25 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api fileTree(dir: 'libs', include: ['*.jar'])
 
 
     addComponent 'module_login'
 
-    implementation project(":commonsdk")//因为 CommonRes 依赖了 CommonSDK, 所以如果业务模块需要公共 UI 组件就依赖 CommonRes, 如果不需要就只依赖 CommonSDK
+    api project(":commonsdk")//因为 CommonRes 依赖了 CommonSDK, 所以如果业务模块需要公共 UI 组件就依赖 CommonRes, 如果不需要就只依赖 CommonSDK
 
     annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
     //view
     annotationProcessor(rootProject.ext.dependencies["butterknife-compiler"]) {
         exclude module: 'support-annotations'
     }
+    //底部导航 https://github.com/Ashok-Varma/BottomNavigation
+    api rootProject.ext.dependencies["bottom-navigation-bar"]
+
+
+
+
+
     //test
     testImplementation rootProject.ext.dependencies["junit"]
     debugImplementation rootProject.ext.dependencies["canary-debug"]

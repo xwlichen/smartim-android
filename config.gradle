@@ -57,6 +57,8 @@ ext {
             "smartrefreshlayout"       : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14",
             "smartrefreshheader"       : "com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14",
             "immersionbar"             :"com.gyf.immersionbar:immersionbar:2.3.2-beta01",
+            "bottom-navigation-bar"    :"com.ashokvarma.android:bottom-navigation-bar:2.1.0",
+
 
 
 

@@ -1,1 +1,1 @@
-include ':app', ':commonsdk', ':module_login', ':arms'
+include ':app', ':commonsdk', ':module_login', ':arms', ':module_message'
