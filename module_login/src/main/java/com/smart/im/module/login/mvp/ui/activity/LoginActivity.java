@@ -16,10 +16,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.jess.arms.di.component.AppComponent;
-import com.smart.im.common.sdk.base.BaseAppActivity;
-import com.smart.im.common.sdk.utils.AnimatorUtils;
-import com.smart.im.common.sdk.utils.KeyBoardUtils;
-import com.smart.im.common.sdk.widget.dialog.SweetAlertDialog;
+import com.smart.im.common.core.base.BaseAppActivity;
+import com.smart.im.common.core.utils.AnimatorUtils;
+import com.smart.im.common.core.utils.KeyBoardUtils;
+import com.smart.im.common.core.widget.dialog.SweetAlertDialog;
 import com.smart.im.module.login.R;
 import com.smart.im.module.login.R2;
 import com.smart.im.module.login.di.component.DaggerLoginComponent;
@@ -31,9 +31,9 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import me.jessyan.autosize.utils.AutoSizeUtils;
 
-import static com.smart.im.common.sdk.utils.AnimatorUtils.ANIMATOR_ALPHA;
-import static com.smart.im.common.sdk.utils.AnimatorUtils.ANIMATOR_SCALEX;
-import static com.smart.im.common.sdk.utils.AnimatorUtils.ANIMATOR_SCALEY;
+import static com.smart.im.common.core.utils.AnimatorUtils.ANIMATOR_ALPHA;
+import static com.smart.im.common.core.utils.AnimatorUtils.ANIMATOR_SCALEX;
+import static com.smart.im.common.core.utils.AnimatorUtils.ANIMATOR_SCALEY;
 
 
 /**

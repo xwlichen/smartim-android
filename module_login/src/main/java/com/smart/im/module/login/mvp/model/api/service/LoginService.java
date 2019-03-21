@@ -15,7 +15,7 @@
  */
 package com.smart.im.module.login.mvp.model.api.service;
 
-import com.smart.im.common.sdk.model.Result;
+import com.smart.im.common.core.model.Result;
 import com.smart.im.module.login.mvp.model.entity.User;
 
 import io.reactivex.Observable;

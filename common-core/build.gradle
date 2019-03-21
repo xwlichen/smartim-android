@@ -1,0 +1,68 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "boolean", "USE_CANARY", "true"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "boolean", "USE_CANARY", "false"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+//  api rootProject.ext.dependencies["arms"]
+    api project(':arms')
+
+    api rootProject.ext.dependencies["retrofit-url-manager"]
+
+    api rootProject.ext.dependencies["glide"]
+    annotationProcessor rootProject.ext.dependencies["glide-compiler"]
+
+//  屏幕适配
+    api rootProject.ext.dependencies["autosize"]
+//  沉浸状态栏
+    api rootProject.ext.dependencies["immersionbar"]
+
+//  smartrefresh
+    api rootProject.ext.dependencies["smartrefreshlayout"]
+    api rootProject.ext.dependencies["smartrefreshheader"]
+
+    api rootProject.ext.dependencies["toast"]
+
+    api rootProject.ext.dependencies["multidex"]
+
+//    api rootProject.ext.dependencies["butterknife"]
+//    annotationProcessor(rootProject.ext.dependencies["butterknife-compiler"])
+
+
+
+
+
+}

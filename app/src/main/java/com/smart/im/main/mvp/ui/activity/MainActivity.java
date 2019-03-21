@@ -12,7 +12,7 @@ import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.billy.cc.core.component.CC;
 import com.billy.cc.core.component.CCResult;
 import com.jess.arms.di.component.AppComponent;
-import com.smart.im.common.sdk.base.BaseAppActivity;
+import com.smart.im.common.core.base.BaseAppActivity;
 import com.smart.im.main.LoginUtils;
 import com.smart.im.main.R;
 import com.smart.im.main.di.compoent.DaggerMainComponent;

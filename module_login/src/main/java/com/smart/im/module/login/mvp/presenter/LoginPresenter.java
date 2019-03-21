@@ -22,9 +22,9 @@ import android.support.v4.app.SupportActivity;
 import com.jess.arms.di.scope.ActivityScope;
 import com.jess.arms.integration.AppManager;
 import com.jess.arms.mvp.BasePresenter;
-import com.smart.im.common.sdk.model.Result;
-import com.smart.im.common.sdk.rx.DefaultErrorHandlerSubscriber;
-import com.smart.im.common.sdk.rx.RxDialogUtils;
+import com.smart.im.common.core.model.Result;
+import com.smart.im.common.core.rx.DefaultErrorHandlerSubscriber;
+import com.smart.im.common.core.rx.RxDialogUtils;
 import com.smart.im.module.login.mvp.contract.LoginContract;
 import com.smart.im.module.login.mvp.model.entity.User;
 

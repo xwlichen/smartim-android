@@ -18,7 +18,7 @@ package com.smart.im.module.login.mvp.model;
 import com.jess.arms.di.scope.ActivityScope;
 import com.jess.arms.integration.IRepositoryManager;
 import com.jess.arms.mvp.BaseModel;
-import com.smart.im.common.sdk.model.Result;
+import com.smart.im.common.core.model.Result;
 import com.smart.im.module.login.mvp.contract.LoginContract;
 import com.smart.im.module.login.mvp.model.api.service.LoginService;
 import com.smart.im.module.login.mvp.model.entity.User;

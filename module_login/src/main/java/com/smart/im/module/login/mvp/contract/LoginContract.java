@@ -19,7 +19,7 @@ import android.app.Activity;
 
 import com.jess.arms.mvp.IModel;
 import com.jess.arms.mvp.IView;
-import com.smart.im.common.sdk.model.Result;
+import com.smart.im.common.core.model.Result;
 import com.smart.im.module.login.mvp.model.entity.User;
 
 import io.reactivex.Observable;
